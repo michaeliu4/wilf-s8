@@ -10,7 +10,11 @@ pattern is determined in every length. The new cubic comparison refutes
 the degree-bound clause of Ray–West's conjecture under the precise
 common-coefficient interpretation stated in the paper.
 
-Start with [the manuscript](manuscript/main.pdf).
+Start with [the manuscript](manuscript/main.pdf) or its [LaTeX source](manuscript/main.tex).
+These files on `main` are the version submitted to *Annals of Combinatorics*
+on 23 September 2026. The PDF is a local preview of the submitted source;
+the journal generated its own review PDF. The `v1.0.0` tag preserves the
+preceding public manuscript and the fixed code and certificate snapshot.
 The general compact-statistic problem for g₃ and the all-length
 component claims in codimensions 3 and 4 remain open.
 
@@ -55,16 +59,16 @@ the scope of those tests and distinguishes retained evidence from fresh runs.
 
 | Path | Purpose |
 |---|---|
-| `manuscript/` | Exact source/PDF pair, including two vector figures |
+| `manuscript/` | Submitted LaTeX source and local preview PDF, including two vector figures |
 | `src/` | Counting algorithms, certificate checks, regression and release tools |
 | `data/` | Sparse S₈ certificate, class/provenance data, retained sweep values |
 | `checks/` | Row-level recounts, raw outputs and explicitly scoped check records |
 | `reference/archive_stage1_S8/` | Earlier distinct algorithms and certificate comparison data |
 | `SOURCE_MAP.md` | All 25 bibliography entries: identity, use, locators and access limits |
-| `docs/REVISION8_VERIFICATION.md` | Checks and open release tasks for this revision |
+| `docs/REVISION8_VERIFICATION.md` | Historical checks for the `v1.0.0` release |
 | `docs/GITHUB_SETUP.md` | Author-side procedure for preparing later releases |
 | `docs/VERIFICATION.md` | Historical revision-7 verification record |
-| `CITATION.cff`, `release.json` | Citation metadata and local release configuration |
+| `CITATION.cff`, `release.json` | Metadata and configuration for the fixed `v1.0.0` companion release |
 | `SHA256SUMS` | SHA-256 identities of all packaged files except this manifest |
 
 ## Release and reuse
