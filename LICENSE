@@ -1,8 +1,3 @@
-Scope: This license applies to the repository's verification and build code,
-certificate and computation data, and their associated technical documentation.
-It does not apply to the manuscript in manuscript/, whose reuse terms are
-separate.
-
 MIT License
 
 Copyright (c) 2026 Mingchang Liu
