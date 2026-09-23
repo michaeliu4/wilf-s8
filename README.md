@@ -1,7 +1,5 @@
 # The Ray–West parameter and the Wilf classification of permutations of length eight
 
-**Mingchang Liu**
-
 The paper proves the complete **4,755-class classification of S₈**, with
 sharp separation cutoff **14**, and an **interval statistic for the
 Ray–West parameter j**, derived from their insertion classification.
