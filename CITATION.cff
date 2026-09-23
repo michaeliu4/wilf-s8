@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the paper and this exact code/certificate release."
+type: software
+title: "The Ray–West parameter and the Wilf classification of permutations of length eight: code and certificates"
+authors:
+  - family-names: Liu
+    given-names: Mingchang
+version: "1.0.0"
+repository-code: "https://github.com/michaeliu4/wilf-s8"
+url: "https://github.com/michaeliu4/wilf-s8/releases/tag/v1.0.0"
+preferred-citation:
+  type: unpublished
+  title: "The Ray–West parameter and the Wilf classification of permutations of length eight"
+  authors:
+    - family-names: Liu
+      given-names: Mingchang
+  year: 2026
+  notes: "Manuscript revision 8; cite the frozen companion release separately for the computation."

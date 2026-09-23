@@ -1,0 +1,34 @@
+{
+  "polynomials": {
+    "cubic_identity": "exact symbolic equality",
+    "leading_coefficients_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "separated_modular_patterns": 93,
+    "odd_lengths": [
+      17,
+      201
+    ]
+  },
+  "catalogue_dictionary": {
+    "primitive_support_dictionaries": 8803,
+    "lengths": [
+      2,
+      25
+    ],
+    "Ray_West_example_8_4": "61823457 = Z(6,2;1,1)",
+    "return_figure": "passed"
+  },
+  "elimination": {
+    "seed": 20260921,
+    "finite_forest_instances": 400,
+    "initial_feasible_assignments": 12691,
+    "projection_preserving_steps": 1709
+  },
+  "scope": "Exact symbolic identities and bounded regression cases; not exhaustive proof verification."
+}

@@ -1,0 +1,5 @@
+{
+  "command": "bash src/verify.sh",
+  "exit_status": 0,
+  "elapsed_seconds": 513.297
+}

@@ -1,0 +1,2 @@
+# Symbolic checks; other main Python tools use the standard library.
+sympy==1.14.0

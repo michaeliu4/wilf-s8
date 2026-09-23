@@ -1,0 +1,306 @@
+{
+  "revision": 6,
+  "manuscript_pages": 36,
+  "source_sha256": "66b4bebf4b9824784c2fcd6ea35fe7cf120bd913d53b72af2076583eaf22742c",
+  "pdf_sha256": "9da56523912802a3e1e75afcdd7ada3cab86ba930357f4fe170d647dfbb272ad",
+  "certificate_sha256": "381ab01680a2ee4256d09660fecf2cf348c8a3e07f749bdeebf079e9905118b8",
+  "render_dpi": 100,
+  "all_pages_visually_inspected": true,
+  "inspection_scope": "Every final page inspected, or accounted for by exact unchanged-page comparison after the final local prose edit. Pages 25-36 were inspected on the final render. The new proof and references were read on those page images.",
+  "layout_findings": {
+    "overfull_horizontal_boxes": 0,
+    "undefined_references_or_citations": 0,
+    "duplicate_labels": 0,
+    "inherited_vertical_warning_pt": 2.42233,
+    "vertical_warning_page": 1,
+    "warning_disposition": "Page inspected; no visible overlap or clipping."
+  },
+  "clean_rebuild": {
+    "status": "PASS",
+    "pdf_bytes_identical": true,
+    "source_identical": true,
+    "commands": [
+      {
+        "command": [
+          "bash",
+          "src/build_manuscript.sh"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 3.697
+      },
+      {
+        "command": [
+          "python3",
+          "src/test_reference_check.py"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 5.991
+      },
+      {
+        "command": [
+          "python3",
+          "src/check_certificate.py"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 0.745
+      },
+      {
+        "command": [
+          "python3",
+          "src/check_recount_records.py"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 0.714
+      },
+      {
+        "command": [
+          "python3",
+          "src/check_component_records.py"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 0.67
+      },
+      {
+        "command": [
+          "python3",
+          "src/compare_archive_S8.py"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 1.046
+      },
+      {
+        "command": [
+          "python3",
+          "src/check_monotone_coefficients.py",
+          "--amax",
+          "12"
+        ],
+        "exit_status": 0,
+        "elapsed_seconds": 0.722
+      }
+    ],
+    "all_page_text_and_pixels_identical": true
+  },
+  "semantic_reference_labels_checked": 130,
+  "negative_reference_tests": 7,
+  "pdf_ua_conformance_claimed": false,
+  "public_deposit_completed": false,
+  "pages": [
+    {
+      "page": 1,
+      "render_sha256": "a167e6c70ebef72d609215629bffe1a39ac54f2bf0ba118bd1b84e19b7fada9b",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 2,
+      "render_sha256": "35408da2f293e7cfa3eb88a3956eca759c92b77f9ade7c8514aefa875e66cc8d",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 3,
+      "render_sha256": "f06f1120841afced23b5c1c45978578d62765ea88878734e37240a1fad2e2fa7",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 4,
+      "render_sha256": "e9232c8de4f5baf688a8fb1f3fd482e63d2a4bcb19bf91202d4fdbef0ec4a9cc",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 5,
+      "render_sha256": "4aa6a90a077e0fc9f1f7a8ae3b142b24ebabd3c273892add68e54defe5fcf5d0",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 6,
+      "render_sha256": "7fffe570535b6797326794693dc9751005919accdd1dc8abbf514ad9d8f7f4db",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 7,
+      "render_sha256": "80ea232f19773a8537459db01c20fcf387423dcebe9636dc6e56e7edbcb93d99",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 8,
+      "render_sha256": "c876e1c6dd3984682b8f8b6903c81cace328c8b67117111c33dd15c491d1a1c8",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 9,
+      "render_sha256": "cf819f1c0bd7f5f21902966a6105b7e6a7e0ae9388862ed399135fb2827f2743",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 10,
+      "render_sha256": "ea6c54c374f6755247b9c43047b6bc95c8bc652ad6f8678348e6437fbb45f39f",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 11,
+      "render_sha256": "696090acee49a91c7e5e4a9c6dc07a30520efc2c548b1cc08540d8005d644ed1",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 12,
+      "render_sha256": "e5cb1fb283f513cc2030b08b9c05de6b362ff53b6b924641e076cc9db43ea54e",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 13,
+      "render_sha256": "01680a3759627fac3b5f8df23fc07ed800baef81bd1ee680ea11ace65f8f22fd",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 14,
+      "render_sha256": "894154019817d18fea5698846e14f4d5abcbb4f91f97a76feaeef10139a1b38e",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 15,
+      "render_sha256": "485eaa7775e9388f84408a8faa012ff956d4eb7be0292e69ea80fd3b82e9ed89",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 16,
+      "render_sha256": "e31f9900ddfdbeccfb2f2e6b4af9650034579bf9865f2b97730fa633bda44b69",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 17,
+      "render_sha256": "bd188b985549323b0dc774885cc3fc28239e299d3118b9de36fdf377144438a0",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 18,
+      "render_sha256": "a0df7dafb0279f1e2973e002fd8fd6bdfb3dcf9fd1ede797c8904c68c4ca306c",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 19,
+      "render_sha256": "dcf73cf2ab22c4640b699da152e79494379f6940569fb8587cccecd040f170e8",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 20,
+      "render_sha256": "ddb10dd59f4b0083d647b59bb559cc4e5f34ace50432bbd77f4ce1be13a0e631",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 21,
+      "render_sha256": "d7702d3d62c9b8c38213a83d3aac1062124c7613b559b5783eb8b494a8867aaa",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 22,
+      "render_sha256": "dc37f1f0be31ad50a758f377288d5e46e48bf9d448e50e9baefd85451e8e2ed3",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 23,
+      "render_sha256": "cb709ee4e802d6a9689acf594e0dc9b4d7373c5f70c9a6843846c86eb4d20597",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 24,
+      "render_sha256": "a415f3a9ec572998f843c60e212ad42c0aab2f53a9062b316da9eba795b76654",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 25,
+      "render_sha256": "6787ecc987440adf18bf6b50e8bc68a5ed0f08b69e3cd43efb0fb31b4688e012",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 26,
+      "render_sha256": "78403ccbfb1830d308880ce7221bb4486f282eb01805fd647cfbee8b74b3cf85",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 27,
+      "render_sha256": "88ff9092c5bc2cff2f921a19f83eb848f56f2e0c5e455608b02f7f805c23ce26",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 28,
+      "render_sha256": "8ace4a5e29c4baeb86b14a8a356f039c123848ba916f99d270fbea257cbff08c",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 29,
+      "render_sha256": "ca6e4110aeb87b86686da96eef0bcdd1a1e0900f7f299b1a3ce910ad93926441",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 30,
+      "render_sha256": "2095538b35965040635309f11570edd909d8d20e41fd37e49b0d17e1ab9326b5",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 31,
+      "render_sha256": "b2ed4237ed4172f600eb2b7226e36d55685c0be9ac0335f4d316276f82ddae6a",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 32,
+      "render_sha256": "0580d69c0d022e6e7fc4609c7e371b4cffeae89e3ae34498f4ae02f03864dbb7",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 33,
+      "render_sha256": "92515ba01255c8fc34d4b97226765b43f3f331b760abf85a0d7eb4d3edffed55",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 34,
+      "render_sha256": "87801cfa8ba9113a7892558fa4ccffdb22ec6e899af405b3a2344f3a3db96ec7",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 35,
+      "render_sha256": "75625b529afdecbc647388b106fb80868dbc64fff98e401390b1e48add91f557",
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 36,
+      "render_sha256": "1a0ca2f4d9aa5227d78a2ed2dc5a2a5685a25abee68d98804abd4e90209afc8f",
+      "text_identical": true,
+      "pixels_identical": true
+    }
+  ]
+}

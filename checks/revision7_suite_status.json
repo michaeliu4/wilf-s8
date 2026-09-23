@@ -1,0 +1,7 @@
+{
+  "underlying_command": "bash src/verify.sh",
+  "exit_status": 0,
+  "new_math_command": "python3 src/check_revision7_math.py",
+  "new_math_exit_status": 0,
+  "scope": "Full named regression suite, not a complete fresh S8 recount; see docs/VERIFICATION.md."
+}

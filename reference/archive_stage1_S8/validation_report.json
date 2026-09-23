@@ -1,0 +1,153 @@
+{
+  "pattern_length": 8,
+  "permutations": 40320,
+  "symmetry_orbits": 5282,
+  "wilf_classes": 4755,
+  "sharp_distinguishing_cutoff": 14,
+  "class_size_distribution": {
+    "2": 29,
+    "4": 260,
+    "8": 4094,
+    "12": 10,
+    "16": 309,
+    "18": 1,
+    "20": 1,
+    "24": 39,
+    "32": 9,
+    "40": 1,
+    "48": 1,
+    "56": 1
+  },
+  "refinement": [
+    [
+      9,
+      1,
+      1,
+      4755
+    ],
+    [
+      10,
+      8,
+      8,
+      4755
+    ],
+    [
+      11,
+      256,
+      235,
+      4734
+    ],
+    [
+      12,
+      4210,
+      490,
+      1035
+    ],
+    [
+      13,
+      4751,
+      4,
+      8
+    ],
+    [
+      14,
+      4755,
+      0,
+      0
+    ]
+  ],
+  "last_four_pairs": [
+    [
+      "13426758",
+      "13427568",
+      3626194,
+      39832606,
+      476576815,
+      6161552875,
+      85472873492,
+      85472873496,
+      4
+    ],
+    [
+      "13678254",
+      "32718564",
+      3626193,
+      39832503,
+      476570602,
+      6161264067,
+      85461367267,
+      85461369287,
+      2020
+    ],
+    [
+      "14567823",
+      "14567832",
+      3626196,
+      39832782,
+      476585968,
+      6161922266,
+      85485717761,
+      85485717376,
+      -385
+    ],
+    [
+      "23815764",
+      "25876314",
+      3626193,
+      39832501,
+      476570338,
+      6161244848,
+      85460332594,
+      85460331546,
+      -1048
+    ]
+  ],
+  "forest_nonroot_edges": 35565,
+  "crosschecks": [
+    {
+      "file": "blocks11_w5.csv",
+      "degree": 11,
+      "rows_checked": 1035
+    },
+    {
+      "file": "blocks11_w6.csv",
+      "degree": 11,
+      "rows_checked": 1035
+    },
+    {
+      "file": "blocks11_w7.csv",
+      "degree": 11,
+      "rows_checked": 9
+    },
+    {
+      "file": "blocks12_w6.csv",
+      "degree": 12,
+      "rows_checked": 1035
+    },
+    {
+      "file": "blocks12_all_w7.csv",
+      "degree": 12,
+      "rows_checked": 4755
+    },
+    {
+      "file": "blocks13_w7.csv",
+      "degree": 13,
+      "rows_checked": 1035
+    },
+    {
+      "file": "selected14_w7.csv",
+      "degree": 14,
+      "rows_checked": 9
+    }
+  ],
+  "monotone_RSK_counts": {
+    "8": 40319,
+    "9": 362815,
+    "10": 3626197,
+    "11": 39832877,
+    "12": 476591309,
+    "13": 6162155981,
+    "14": 85494566892
+  },
+  "status": "Graph certificate and stagewise numerical separation verified; exact counts are reproducible from the included enumerators."
+}

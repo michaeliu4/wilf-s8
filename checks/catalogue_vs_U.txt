@@ -1,0 +1,7 @@
+l=2: |P|=1 |U|=1 P==U: True
+l=3: |P|=2 |U|=2 P==U: True
+l=4: |P|=5 |U|=5 P==U: True
+l=5: |P|=10 |U|=10 P==U: True
+l=6: |P|=18 |U|=18 P==U: True
+l=7: |P|=28 |U|=28 P==U: True
+j by the catalogue formula vs cluster value: 144 patterns, 0 mismatches

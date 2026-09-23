@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "elapsed_seconds": 486.825096928,
+  "verify_script_sha256": "223c4292253de512752f4d7c6b2a75aed2723877a72089c329db23dbe302ebe4",
+  "command": "bash -c <frozen contents of src/verify.sh> src/verify.sh"
+}

@@ -1,0 +1,9 @@
+{
+  "build_command": "bash src/build_manuscript.sh",
+  "clean_package_build_exit": 0,
+  "clean_package_checks_command": "make check test-references",
+  "clean_package_checks_exit": 0,
+  "pdf_byte_identical": true,
+  "pdf_sha256": "29b6afb5e14e7918e88596d6c989c27659b2762863812b8723ca8a9ceb8991f1",
+  "scope": "Clean extraction of reader-facing payload, with no inherited TeX intermediates or executables; local environment recorded separately. Makefile now builds the direct-placement counter required by its tests."
+}

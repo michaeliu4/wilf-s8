@@ -1,0 +1,25 @@
+# Local environments and release products
+.venv/
+.git/
+dist/
+build/
+__pycache__/
+*.pyc
+*.o
+.DS_Store
+verification.log
+# Reconstructible TeX products; keep the actual manuscript PDF.
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+# Rebuilt executables
+src/clusters
+src/delgraph
+src/classes_k
+src/autom
+src/chi_components
+src/bruteforce_contain
+src/dbox
+src/check_component_separation

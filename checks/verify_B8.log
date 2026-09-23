@@ -1,0 +1,7 @@
+length 2: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 2
+length 3: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 4
+length 4: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 10
+length 5: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 20
+length 6: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 36
+length 7: 0 patterns checked, mismatches 0; #patterns with U=1: 0; sum w = 56
+length 8: 40320 patterns checked, mismatches 0; #patterns with U=1: 43; sum w = 86

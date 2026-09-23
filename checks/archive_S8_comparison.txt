@@ -1,0 +1,5 @@
+archived classes: 4755 present classes: 4755
+archived representatives that are present representatives: 4755
+classes with identical membership: 4755
+certificate entries compared: 20063 mismatches: 0
+per-pattern counts compared (all 40320 patterns, n=9..12): 161280 mismatches: 0

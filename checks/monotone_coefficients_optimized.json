@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "amax": 3,
+  "cluster_coefficient_comparisons": 18,
+  "dimensions": "corner-removal recurrence",
+  "values": [
+    {
+      "a": 1,
+      "c_2a_plus_2": -24,
+      "c_2a_plus_3": 120
+    },
+    {
+      "a": 2,
+      "c_2a_plus_2": 185,
+      "c_2a_plus_3": -204
+    },
+    {
+      "a": 3,
+      "c_2a_plus_2": -2198,
+      "c_2a_plus_3": 15064
+    }
+  ],
+  "direct_fredholm_cases": [
+    {
+      "a": 1,
+      "p": 2,
+      "first_theta_power": 4,
+      "coefficient": "1/144",
+      "tableau_square": 4
+    },
+    {
+      "a": 2,
+      "p": 2,
+      "first_theta_power": 6,
+      "coefficient": "1/20736",
+      "tableau_square": 25
+    },
+    {
+      "a": 1,
+      "p": 3,
+      "first_theta_power": 9,
+      "coefficient": "1/74649600",
+      "tableau_square": 1764
+    }
+  ]
+}

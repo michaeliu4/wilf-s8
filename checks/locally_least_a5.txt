@@ -1,0 +1,4 @@
+a=2: all 2 patterns have sum of locally least edges = C_2(a)+a-1 = 25: True
+a=3: all 6 patterns have sum of locally least edges = C_2(a)+a-1 = 82: True
+a=4: all 24 patterns have sum of locally least edges = C_2(a)+a-1 = 213: True
+a=5: all 120 patterns have sum of locally least edges = C_2(a)+a-1 = 466: True

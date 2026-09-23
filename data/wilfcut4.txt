@@ -1,0 +1,4 @@
+cutoff n<=5: 1 classes
+cutoff n<=6: 2 classes
+cutoff n<=7: 3 classes
+cutoff n<=8: 3 classes

@@ -1,0 +1,1 @@
+representatives: 4755; n=[11, 12]; rows: 9510; mismatches: 0; fresh rows this run: 9510; elapsed seconds: 213.094

@@ -1,0 +1,7 @@
+length 2: 2 patterns checked, mismatches 0; #patterns with U=1: 1; sum w = 2
+length 3: 6 patterns checked, mismatches 0; #patterns with U=1: 2; sum w = 4
+length 4: 24 patterns checked, mismatches 0; #patterns with U=1: 5; sum w = 10
+length 5: 120 patterns checked, mismatches 0; #patterns with U=1: 10; sum w = 20
+length 6: 720 patterns checked, mismatches 0; #patterns with U=1: 18; sum w = 36
+length 7: 5040 patterns checked, mismatches 0; #patterns with U=1: 28; sum w = 56
+# lengths 2..7 (the length-8 line of the original run was produced before the output format of "clusters -list" was fixed for values >= 10 and is discarded; see verify_B8.log for the corrected length-8 run: 40320 patterns, 0 mismatches, 43 with U=1)

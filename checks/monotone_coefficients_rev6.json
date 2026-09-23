@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "amax": 12,
+  "cluster_coefficient_comparisons": 126,
+  "dimensions": "corner-removal recurrence",
+  "values": [
+    {
+      "a": 1,
+      "c_2a_plus_2": -24,
+      "c_2a_plus_3": 120
+    },
+    {
+      "a": 2,
+      "c_2a_plus_2": 185,
+      "c_2a_plus_3": -204
+    },
+    {
+      "a": 3,
+      "c_2a_plus_2": -2198,
+      "c_2a_plus_3": 15064
+    },
+    {
+      "a": 4,
+      "c_2a_plus_2": 16800,
+      "c_2a_plus_3": 9600
+    },
+    {
+      "a": 5,
+      "c_2a_plus_2": -187968,
+      "c_2a_plus_3": 1839717
+    },
+    {
+      "a": 6,
+      "c_2a_plus_2": 1378234,
+      "c_2a_plus_3": 7407400
+    },
+    {
+      "a": 7,
+      "c_2a_plus_2": -16352050,
+      "c_2a_plus_3": 253624592
+    },
+    {
+      "a": 8,
+      "c_2a_plus_2": 107489096,
+      "c_2a_plus_3": 1938145248
+    },
+    {
+      "a": 9,
+      "c_2a_plus_2": -1485427904,
+      "c_2a_plus_3": 40144791440
+    },
+    {
+      "a": 10,
+      "c_2a_plus_2": 7602323092,
+      "c_2a_plus_3": 424043387152
+    },
+    {
+      "a": 11,
+      "c_2a_plus_2": -145035222934,
+      "c_2a_plus_3": 7105125543240
+    },
+    {
+      "a": 12,
+      "c_2a_plus_2": 385945246300,
+      "c_2a_plus_3": 88502799670480
+    }
+  ],
+  "direct_fredholm_cases": [
+    {
+      "a": 1,
+      "p": 2,
+      "first_theta_power": 4,
+      "coefficient": "1/144",
+      "tableau_square": 4
+    },
+    {
+      "a": 2,
+      "p": 2,
+      "first_theta_power": 6,
+      "coefficient": "1/20736",
+      "tableau_square": 25
+    },
+    {
+      "a": 1,
+      "p": 3,
+      "first_theta_power": 9,
+      "coefficient": "1/74649600",
+      "tableau_square": 1764
+    }
+  ]
+}

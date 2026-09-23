@@ -1,0 +1,1 @@
+hosts checked: 60608 violations of c = I - (beta0-1): 0

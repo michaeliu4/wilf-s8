@@ -1,0 +1,25 @@
+{
+  "pages": 38,
+  "figures": 2,
+  "tables": 2,
+  "abstract_whitespace_tokens": 164,
+  "compiled_reference_labels": 135,
+  "bibliography_entries": 24,
+  "all_pages_visually_accounted_for": true,
+  "full_page_inspections_include": [
+    1,
+    9,
+    12,
+    24,
+    25,
+    27,
+    28,
+    29,
+    31
+  ],
+  "unresolved_tex_references": false,
+  "unresolved_tex_citations": false,
+  "visible_clipping_found": false,
+  "pdf_ua_conformance": "not tested",
+  "sha256": "29b6afb5e14e7918e88596d6c989c27659b2762863812b8723ca8a9ceb8991f1"
+}

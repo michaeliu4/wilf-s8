@@ -1,0 +1,12 @@
+a=1: binomial law holds for k<= 2; deviations at k=a+2,a+3,a+4: [-4, 50, -468]  Cat(a+1)^2= 4  (a+1)Cat(a+2)^2= 50
+a=2: binomial law holds for k<= 3; deviations at k=a+2,a+3,a+4: [-25, 588, -9212]  Cat(a+1)^2= 25  (a+1)Cat(a+2)^2= 588
+a=3: binomial law holds for k<= 4; deviations at k=a+2,a+3,a+4: [-196, 7056, -158112]  Cat(a+1)^2= 196  (a+1)Cat(a+2)^2= 7056
+a=4: binomial law holds for k<= 5; deviations at k=a+2,a+3,a+4: [-1764, 87120, -2564595]  Cat(a+1)^2= 1764  (a+1)Cat(a+2)^2= 87120
+a=5: binomial law holds for k<= 6; deviations at k=a+2,a+3,a+4: [-17424, 1104246, -40489020]  Cat(a+1)^2= 17424  (a+1)Cat(a+2)^2= 1104246
+a=6: binomial law holds for k<= 7; deviations at k=a+2,a+3,a+4: [-184041, 14314300, -630401772]  Cat(a+1)^2= 184041  (a+1)Cat(a+2)^2= 14314300
+a=7: binomial law holds for k<= 8; deviations at k=a+2,a+3,a+4: [-2044900, 189112352, -9743193408]  Cat(a+1)^2= 2044900  (a+1)Cat(a+2)^2= 189112352
+a=8: binomial law holds for k<= 9; deviations at k=a+2,a+3,a+4: [-23639044, 2538950544, -150009661308]  Cat(a+1)^2= 23639044  (a+1)Cat(a+2)^2= 2538950544
+a=9: binomial law holds for k<= 10; deviations at k=a+2,a+3,a+4: [-282105616, 34557937960, -2305362086160]  Cat(a+1)^2= 282105616  (a+1)Cat(a+2)^2= 34557937960
+a=10: binomial law holds for k<= 11; deviations at k=a+2,a+3,a+4: [-3455793796, 475958913584, -35405515102320]  Cat(a+1)^2= 3455793796  (a+1)Cat(a+2)^2= 475958913584
+a=11: binomial law holds for k<= 12; deviations at k=a+2,a+3,a+4: [-43268992144, 6622804920000, -543776435964800]  Cat(a+1)^2= 43268992144  (a+1)Cat(a+2)^2= 6622804920000
+a=12: binomial law holds for k<= 13; deviations at k=a+2,a+3,a+4: [-551900410000, 92984181076800, -8355500396448075]  Cat(a+1)^2= 551900410000  (a+1)Cat(a+2)^2= 92984181076800

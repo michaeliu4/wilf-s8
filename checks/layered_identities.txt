@@ -1,0 +1,30 @@
+(1, 1) table ok f' ok J 311 311 311 rec formula
+(2,) table ok f' ok J 311 311 311 rec formula
+(1, 1, 1) table ok f' ok J 793 793 793 rec formula
+(1, 2) table ok f' ok J 794 794 794 rec formula
+(2, 1) table ok f' ok J 793 793 793 rec formula
+(3,) table ok f' ok J 793 793 793 rec formula
+(1, 1, 1, 1) table ok f' ok J 1695 None 1695 rec formula
+(1, 1, 2) table ok f' ok J 1696 None 1696 rec formula
+(1, 2, 1) table ok f' ok J 1695 None 1695 rec formula
+(1, 3) table ok f' ok J 1696 None 1696 rec formula
+(2, 1, 1) table ok f' ok J 1695 None 1695 rec formula
+(2, 2) table ok f' ok J 1696 None 1696 rec formula
+(3, 1) table ok f' ok J 1695 None 1695 rec formula
+(4,) table ok f' ok J 1695 None 1695 rec formula
+(1, 1, 1, 1, 1) table ok f' ok J 3209 None 3209 rec formula
+(1, 1, 1, 2) table ok f' ok J 3210 None 3210 rec formula
+(1, 1, 2, 1) table ok f' ok J 3209 None 3209 rec formula
+(1, 1, 3) table ok f' ok J 3210 None 3210 rec formula
+(1, 2, 1, 1) table ok f' ok J 3209 None 3209 rec formula
+(1, 2, 2) table ok f' ok J 3210 None 3210 rec formula
+(1, 3, 1) table ok f' ok J 3209 None 3209 rec formula
+(1, 4) table ok f' ok J 3210 None 3210 rec formula
+(2, 1, 1, 1) table ok f' ok J 3209 None 3209 rec formula
+(2, 1, 2) table ok f' ok J 3210 None 3210 rec formula
+(2, 2, 1) table ok f' ok J 3209 None 3209 rec formula
+(2, 3) table ok f' ok J 3210 None 3210 rec formula
+(3, 1, 1) table ok f' ok J 3209 None 3209 rec formula
+(3, 2) table ok f' ok J 3210 None 3210 rec formula
+(4, 1) table ok f' ok J 3209 None 3209 rec formula
+(5,) table ok f' ok J 3209 None 3209 rec formula

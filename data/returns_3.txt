@@ -1,0 +1,2 @@
+231 rho 24153 posshift -1 valshift -1 privroles O: [1, 3] O': [2, 3] privvalroles O: [2, 1] O': [3, 1]
+312 rho 31524 posshift -1 valshift -1 privroles O: [1, 2] O': [1, 3] privvalroles O: [3, 1] O': [3, 2]

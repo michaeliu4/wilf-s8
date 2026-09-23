@@ -1,0 +1,2 @@
+patterns compared: 830 mismatches: 0
+length-8 representatives compared with the C++ evaluator: 4755 mismatches: 0

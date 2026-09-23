@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "source_sha256": "3576a2d8bed0c87a90d7698f925729583137faf227f585c2721ab9e20100ce67",
+  "executable_sha256": "e22e37fa7117ee05eb723b2d296a80dadc86d671bf9cd777789b3df60e8b3735",
+  "certificate_sha256": "381ab01680a2ee4256d09660fecf2cf348c8a3e07f749bdeebf079e9905118b8",
+  "scope": "all",
+  "n": [
+    11,
+    12
+  ],
+  "rows_expected": 9510
+}

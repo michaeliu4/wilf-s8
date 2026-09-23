@@ -1,0 +1,177 @@
+[
+  {
+    "key": "BabsonWest2000",
+    "authors_year": "Babson–West (2000)",
+    "identity": "Graphs Combin. 16(4), 373–380. DOI 10.1007/s003730070001.",
+    "source": "https://link.springer.com/article/10.1007/s003730070001",
+    "scope": "Publisher identity and abstract checked: the k=3 direct-sum-prefix equivalence. The original proof was not reread in full."
+  },
+  {
+    "key": "BWX2007",
+    "authors_year": "Backelin–West–Xin (2007)",
+    "identity": "Adv. in Appl. Math. 38(2), 133–148. DOI 10.1016/j.aam.2004.11.006.",
+    "source": "https://doi.org/10.1016/j.aam.2004.11.006",
+    "scope": "Registered identity checked. Applicability of the monotone prefix move is also checked in Krattenthaler’s primary treatment and the original Stankova–West paper’s Proposition 1/discussion. This is not arbitrary replacement inside a two-sided context."
+  },
+  {
+    "key": "BHT2018",
+    "authors_year": "Bevan–Homberger–Tenner (2018)",
+    "identity": "J. Combin. Theory Ser. A 153, 98–121. DOI 10.1016/j.jcta.2017.08.006.",
+    "source": "https://arxiv.org/pdf/1608.06931v3",
+    "scope": "Preprint v3: Definition 2.3, Proposition 2.7, Theorem 2.25 and the introductory correction/Hegarty attribution checked. The downward criterion uses taxicab breadth, not the manuscript’s upward Chebyshev/girth condition. Preprint numbering is identified locally. Web rendering of these particular pages failed; parsed source text and the earlier version-specific record were used, not claimed fresh screenshots."
+  },
+  {
+    "key": "BloomSaracino2014",
+    "authors_year": "Bloom–Saracino (2014)",
+    "identity": "J. Combin. Math. Combin. Comput. 89, 23–32.",
+    "source": "https://combinatorialpress.com/jcmcc-articles/volume-089/a-simple-bijection-between-231-avoiding-and-312-avoiding-placements/",
+    "scope": "Publisher identity and abstract checked: the 231/312 placement bijection. A generic identifier index did not find the article; the publisher does. No unrelated 2009/2010 bijection is cited."
+  },
+  {
+    "key": "BHV2008",
+    "authors_year": "Brignall–Huczynska–Vatter (2008)",
+    "identity": "J. Combin. Theory Ser. A 115(3), 423–441. DOI 10.1016/j.jcta.2007.06.007.",
+    "source": "https://arxiv.org/abs/math/0608391",
+    "scope": "Author/institutional metadata and the decomposition statements in Propositions 2.1–2.3 checked. They supply the sum, skew-sum and simple-inflation alternatives used in the deficit proof, not uniqueness of every arbitrary inflation."
+  },
+  {
+    "key": "BOO2000",
+    "authors_year": "Borodin–Okounkov–Olshanski (2000)",
+    "identity": "J. Amer. Math. Soc. 13(3), 481–515. DOI 10.1090/S0894-0347-00-00337-4.",
+    "source": "https://arxiv.org/html/math/9905032v2",
+    "scope": "Theorem 2, equation (1.9), Proposition 2.9 and Corollary 2.10 checked. The configuration is {lambda_i-i}; the discrete Bessel kernel and its series match the manuscript. This classical probability model is an input, not a new theorem here."
+  },
+  {
+    "key": "ESZ2015",
+    "authors_year": "Ekhad–Shar–Zeilberger (2015)",
+    "identity": "arXiv:1504.02513v1; preprint.",
+    "source": "https://arxiv.org/pdf/1504.02513v1",
+    "scope": "Page 2, including the rendered formulas, checked: d>=r-1 and the explicit polynomials, including the cubic-codimension one. Page 3 states the first-2d+1-term limitation. The manuscript credits the range and computed polynomials and distinguishes its uniform sum and exact defects."
+  },
+  {
+    "key": "FRT1954",
+    "authors_year": "Frame–Robinson–Thrall (1954)",
+    "identity": "Canad. J. Math. 6, 316–324. DOI 10.4153/CJM-1954-030-1.",
+    "source": "https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/hook-graphs-of-the-symmetric-group/B1533D44F5B1DBF6B6903C79AFFDCFEE",
+    "scope": "Publisher identity, including end page 324, checked. Cited as the hook-length source. The standard formula’s applications are evaluated in the paper and coefficient code; the 1954 proof was not reread in full."
+  },
+  {
+    "key": "Gessel1990",
+    "authors_year": "Gessel (1990)",
+    "identity": "J. Combin. Theory Ser. A 53(2), 257–285. DOI 10.1016/0097-3165(90)90060-A.",
+    "source": "https://doi.org/10.1016/0097-3165(90)90060-A",
+    "scope": "Registered identity checked. The older Toeplitz-determinant attribution is supported by the primary ESZ discussion and Johansson. No new theorem here relies on an unread specialization from the original Gessel proof."
+  },
+  {
+    "key": "GouldenJackson1979",
+    "authors_year": "Goulden–Jackson (1979)",
+    "identity": "J. London Math. Soc. (2) 20(3), 567–576. DOI 10.1112/jlms/s2-20.3.567.",
+    "source": "https://doi.org/10.1112/jlms/s2-20.3.567",
+    "scope": "Registered title/authors/extent checked. Cited as an antecedent and analogy, not as an imported positional-containment theorem. Original full text was not available for a fresh cover-to-cover reading."
+  },
+  {
+    "key": "Hegarty2013",
+    "authors_year": "Hegarty (2013)",
+    "identity": "J. Combin. Theory Ser. A 120(7), 1663–1671. DOI 10.1016/j.jcta.2013.06.006.",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0097316513000988",
+    "scope": "Publisher identity and author preprint checked. Bevan–Homberger–Tenner credit Hegarty with the necessity direction of the distinct-deletions criterion; the manuscript cites him for that direction and their corrected proof for the full equivalence."
+  },
+  {
+    "key": "Homberger2012",
+    "authors_year": "Homberger (2012)",
+    "identity": "Online J. Anal. Comb. 7, Paper 3, 12 pp. DOI 10.61091/ojac-703.",
+    "source": "https://combinatorialpress.com/ojac-articles/issue-7-2012/counting-fixed-length-permutation-patterns/",
+    "scope": "Publisher identity and arXiv:1211.7117v1 text checked. Lemma 5/Corollary 8 are the run characterization and one-point extension count; Theorem 19 is cited only with the later BHT correction. Section 4 also identifies the classical bond limit. Preprint locators are explicitly labeled."
+  },
+  {
+    "key": "Johansson2001",
+    "authors_year": "Johansson (2001)",
+    "identity": "Ann. of Math. (2) 153(1), 259–296. DOI 10.2307/2661375.",
+    "source": "https://annals.math.princeton.edu/2001/153-1/p05",
+    "scope": "Publisher identity and journal-format arXiv:math/9906120v3 checked for Theorem 1.3, kernel (1.10), and the first-row gap boundary. The 1999 preprint date is not the 2001 journal date. A fresh page-image request failed; no screenshot inspection of that failed fetch is claimed."
+  },
+  {
+    "key": "Kaplansky1945",
+    "authors_year": "Kaplansky (1945)",
+    "identity": "Ann. Math. Statist. 16(2), 200–203. DOI 10.1214/aoms/1177731121.",
+    "source": "https://doi.org/10.1214/aoms/1177731121",
+    "scope": "Publisher/identifier metadata checked. Homberger’s primary discussion identifies this antecedent for the asymptotic bond law; the manuscript supplies its own moment calculation rather than requiring an undocumented joint-direction theorem."
+  },
+  {
+    "key": "Krattenthaler2006",
+    "authors_year": "Krattenthaler (2006)",
+    "identity": "Adv. in Appl. Math. 37(3), 404–431. DOI 10.1016/j.aam.2005.12.006.",
+    "source": "https://www.mat.univie.ac.at/~kratt/artikel/growth.html",
+    "scope": "Author’s publication page/abstract and metadata checked. The growth-diagram attribution is for BWX, not the Stankova–West 231/312 result."
+  },
+  {
+    "key": "OEIS",
+    "authors_year": "OEIS Foundation Inc.",
+    "identity": "The On-Line Encyclopedia of Integer Sequences, A099952.",
+    "source": "https://oeis.org/A099952",
+    "scope": "Entry identity and the historical Wilf-class sequence checked. This is a live database, not a proof of the new eighth value; the S8 theorem rests on the paper’s reduction and exact counts."
+  },
+  {
+    "key": "Pratt1973",
+    "authors_year": "Pratt (1973)",
+    "identity": "Proceedings of STOC ’73, ACM, 268–277. DOI 10.1145/800125.804058.",
+    "source": "https://doi.org/10.1145/800125.804058",
+    "scope": "ACM/identifier metadata checked. Historical g1 attribution is recorded by Vatter and the later run-based treatment. The full original Pratt article was not reread. The paper proves the count internally and notes RW’s separate unpublished Bloomberg attribution."
+  },
+  {
+    "key": "RayWest2003",
+    "authors_year": "Ray–West (2003)",
+    "identity": "Ann. Comb. 7(1), 55–88. DOI 10.1007/s000260300005.",
+    "source": "https://eprints.maths.manchester.ac.uk/609/1/lume2wjganftta0j.pdf",
+    "scope": "The original journal-format text was read directly at all load-bearing passages. Detailed printed-page locators and the dictionary appear below. Existing track classification, leading terms, polynomiality and the small g3 example are credited separately."
+  },
+  {
+    "key": "Schensted1961",
+    "authors_year": "Schensted (1961)",
+    "identity": "Canad. J. Math. 13, 179–191. DOI 10.4153/CJM-1961-015-3.",
+    "source": "https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/longest-increasing-and-decreasing-subsequences/B5098D9BC8B226C575402B971852C05E",
+    "scope": "Original publisher identity checked. A title-only lookup selected a later reprint; its date/identifier were not substituted for the 1961 source. The paper uses the standard longest-increasing-subsequence/first-row correspondence."
+  },
+  {
+    "key": "Stankova1994",
+    "authors_year": "Stankova (1994)",
+    "identity": "Discrete Math. 132(1–3), 291–316. DOI 10.1016/0012-365X(94)90242-9.",
+    "source": "https://doi.org/10.1016/0012-365X(94)90242-9",
+    "scope": "Publisher-indexed metadata checked. The role of the length-four equivalence is also confirmed by Stankova–West’s original introduction, rendered in this revision. No cover-to-cover rereading of the 1994 proof is claimed."
+  },
+  {
+    "key": "Stankova1996",
+    "authors_year": "Stankova (1996)",
+    "identity": "European J. Combin. 17(5), 501–517. DOI 10.1006/eujc.1996.0044.",
+    "source": "https://doi.org/10.1006/eujc.1996.0044",
+    "scope": "Publisher metadata/abstract checked; author initial is Z. in this record. The completion of the length-four classification is confirmed in the primary Stankova–West introduction."
+  },
+  {
+    "key": "StankovaWest2002",
+    "authors_year": "Stankova–West (2002)",
+    "identity": "J. Algebraic Combin. 15(3), 271–290. DOI 10.1023/A:1015016625432.",
+    "source": "https://arxiv.org/pdf/math/0103152",
+    "scope": "Publisher identity and original preprint Theorem 1/Proposition 1 checked. Complement converts the stated ordinary equivalence into 231 direct-sum gamma versus 312 direct-sum gamma. The historical paper’s matrix/diagram conventions are not silently identified with another orientation."
+  },
+  {
+    "key": "Vatter2010",
+    "authors_year": "Vatter (2010)",
+    "identity": "Problems and conjectures. In Permutation Patterns, LMS Lecture Note Ser. 376, Cambridge University Press, 339–345. DOI 10.1017/CBO9780511902499.017.",
+    "source": "https://doi.org/10.1017/CBO9780511902499.017",
+    "scope": "The DOI registration gives the short title and 339–345. Some author-side lists use an expanded title and 339–344; the bibliography follows the registered chapter record. The full chapter was not obtained, so the exact motivating questions are sourced directly to the inspected 2026 survey, not to an asserted chapter reading."
+  },
+  {
+    "key": "Vatter2026",
+    "authors_year": "Vatter (2026)",
+    "identity": "An assortment of problems in permutation patterns: unimodality, equivalence, derangements, and sorting. arXiv:2602.16355v2.",
+    "source": "https://arxiv.org/html/2602.16355v2",
+    "scope": "Exact Question 3.1 and Problems 3.7–3.8 checked. The length-eight classification and interval-statistic problem are distinct from a compact general g3 statistic. Survey reference [93] is the 2010 chapter, not the 2005 problem collection."
+  },
+  {
+    "key": "Wolfowitz1944",
+    "authors_year": "Wolfowitz (1944)",
+    "identity": "Ann. Math. Statist. 15(1), 97–98. DOI 10.1214/aoms/1177731319.",
+    "source": "https://doi.org/10.1214/aoms/1177731319",
+    "scope": "Publisher/identifier metadata checked. Historical use is supported by Homberger’s primary discussion; the paper includes its own moment proof. No uninspected joint limit assertion is attributed to this short original note."
+  }
+]

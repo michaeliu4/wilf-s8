@@ -1,0 +1,172 @@
+== 1. Cluster expansion: brute force vs formula, patterns of length <= 4, k <= 3
+(1, 2) k=1 c_r = [1, -4] cluster formula 5 direct 5
+(1, 2) k=2 c_r = [1, -4, 15] cluster formula 23 direct 23
+(1, 2) k=3 c_r = [1, -4, 15, -56] cluster formula 119 direct 119
+(2, 1) k=1 c_r = [1, -4] cluster formula 5 direct 5
+(2, 1) k=2 c_r = [1, -4, 15] cluster formula 23 direct 23
+(2, 1) k=3 c_r = [1, -4, 15, -56] cluster formula 119 direct 119
+(1, 3, 2) k=1 c_r = [1, -6] cluster formula 10 direct 10
+(1, 3, 2) k=2 c_r = [1, -6, 28] cluster formula 78 direct 78
+(1, 3, 2) k=3 c_r = [1, -6, 28, -120] cluster formula 588 direct 588
+(2, 3, 1) k=1 c_r = [1, -6] cluster formula 10 direct 10
+(2, 3, 1) k=2 c_r = [1, -6, 28] cluster formula 78 direct 78
+(2, 3, 1) k=3 c_r = [1, -6, 28, -120] cluster formula 588 direct 588
+(1, 2, 3) k=1 c_r = [1, -6] cluster formula 10 direct 10
+(1, 2, 3) k=2 c_r = [1, -6, 28] cluster formula 78 direct 78
+(1, 2, 3) k=3 c_r = [1, -6, 28, -120] cluster formula 588 direct 588
+(2, 4, 1, 3) k=1 c_r = [1, -8] cluster formula 17 direct 17
+(2, 4, 1, 3) k=2 c_r = [1, -8, 46] cluster formula 208 direct 208
+(2, 4, 1, 3) k=3 c_r = [1, -8, 46, -248] cluster formula 2300 direct 2300
+(1, 3, 4, 2) k=1 c_r = [1, -8] cluster formula 17 direct 17
+(1, 3, 4, 2) k=2 c_r = [1, -8, 46] cluster formula 208 direct 208
+(1, 3, 4, 2) k=3 c_r = [1, -8, 46, -248] cluster formula 2300 direct 2300
+(2, 1, 4, 3) k=1 c_r = [1, -8] cluster formula 17 direct 17
+(2, 1, 4, 3) k=2 c_r = [1, -8, 45] cluster formula 207 direct 207
+(2, 1, 4, 3) k=3 c_r = [1, -8, 45, -220] cluster formula 2279 direct 2279
+== 2. Cluster numbers by inversion; asserts c_{a+1} = -2a and c_{a+2} = 2a(a+2) - j (lengths 3, 4)
+231 2 -6 28 -120 495   14 42 132 429
+312 2 -6 28 -120 495   14 42 132 429
+321 2 -6 28 -120 495   14 42 132 429
+4231 3 -8 45 -221 1039   103 513 2762 15793
+4312 3 -8 45 -220 1001   103 513 2761 15767
+4321 3 -8 45 -220 1001   103 513 2761 15767
+== 3. Theorem A / cycle basis / leading-edge lemma, ALL patterns of length 2 through 6 (delgraph.cpp; length 7 is logged in ../checks/delgraph7.txt)
+A=2 patterns=2  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0
+A=3 patterns=6  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0
+A=4 patterns=24  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0
+A=5 patterns=120  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0
+A=6 patterns=720  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0
+== 4. One-move classes, SELECTED patterns only: sum_rho beta_0^{(k)} = C_k(a) for 10 patterns with k=3 and 6 with k=4
+   (exhaustive runs for all patterns of length <= 6 (k=3) and <= 5 (k=4) are logged in ../checks/classes_k3_a6.txt, classes_k4_a5.txt)
+12 k=3 g_k=119 classes=128 diff=9
+21 k=3 g_k=119 classes=128 diff=9
+123 k=3 g_k=588 classes=628 diff=40
+132 k=3 g_k=588 classes=628 diff=40
+1234 k=3 g_k=2279 classes=2374 diff=95
+1324 k=3 g_k=2278 classes=2374 diff=96
+1342 k=3 g_k=2300 classes=2374 diff=74
+12345 k=3 g_k=6996 classes=7176 diff=180
+13245 k=3 g_k=6995 classes=7176 diff=181
+24135 k=3 g_k=7066 classes=7176 diff=110
+12 k=4 g_k=719 classes=780 diff=61
+123 k=4 g_k=4611 classes=5140 diff=529
+132 k=4 g_k=4611 classes=5140 diff=529
+1234 k=4 g_k=24553 classes=26504 diff=1951
+1324 k=4 g_k=24527 classes=26504 diff=1977
+2413 k=4 g_k=24835 classes=26504 diff=1669
+   (checked against C_3 = 128, 628, 2374, 7176 for a=2..5 and C_4 = 780, 5140, 26504 for a=2..4)
+== 4b. Per-component Euler characteristics (Theorem on codimensions 3, 4), SELECTED patterns; expect 'chi!=1: 0' on every line
+   (exhaustive runs: run_chi_components.sh, ~12 min; logs in ../checks/chi_components_k3.txt, chi_components_k4.txt)
+tau=12 k=3 n=5  rho containing tau: 119  classes total: 128  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=600 f1=800 f2=400 f3=72
+tau=132 k=3 n=6  rho containing tau: 588  classes total: 628  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=2400 f1=2700 f2=1080 f3=152
+tau=1324 k=3 n=7  rho containing tau: 2278  classes total: 2374  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=7350 f1=7056 f2=2352 f3=272
+tau=2413 k=3 n=7  rho containing tau: 2300  classes total: 2374  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=7350 f1=7056 f2=2352 f3=272
+tau=13245 k=3 n=8  rho containing tau: 6995  classes total: 7176  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=18816 f1=15680 f2=4480 f3=440
+tau=132465 k=3 n=9  rho containing tau: 18042  classes total: 18344  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=42336 f1=31104 f2=7776 f3=664
+tau=12 k=4 n=6  rho containing tau: 719  classes total: 780  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=5400 f1=9600 f2=7200 f3=2592 f4=372
+tau=132 k=4 n=7  rho containing tau: 4611  classes total: 5140  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=29400 f1=44100 f2=26460 f3=7448 f4=828
+tau=1324 k=4 n=8  rho containing tau: 24527  classes total: 26504  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=117600 f1=150528 f2=75264 f3=17408 f4=1576
+tau=2413 k=4 n=8  rho containing tau: 24835  classes total: 26504  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=117600 f1=150528 f2=75264 f3=17408 f4=1576
+tau=13245 k=4 n=9  rho containing tau: 101027  classes total: 106184  rho with a class of chi!=1: 0  rho with chi!=beta0: 0  cells: f0=381024 f1=423360 f2=181440 f3=35640 f4=2720
+== 4c. Codimension five is not universal (Proposition on codimension five): a=3 gives 44892 (C_5(3)=44888); a=4: 1234, 2413 differ; 4 hosts with chi != beta_0 for tau=123
+123 k=5 g_k=38890 classes=44892 diff=6002
+1234 k=5 g_k=268521 classes=302001 diff=33480
+2413 k=5 g_k=271635 classes=301992 diff=30357
+tau=123 k=5 n=8  rho containing tau: 38890  classes total: 44892  rho with a class of chi!=1: 4  rho with chi!=beta0: 4  cells: f0=376320 f1=705600 f2=564480 f3=238336 f4=52992 f5=4968  first bad rho:34127856
+== 5. Interval formula certificate w = U + D, ALL patterns of length <= 6 (length <= 8 is logged in ../checks/verify_B8.log)
+length 2: 2 patterns checked, mismatches 0; #patterns with U=1: 1; sum w = 2
+length 3: 6 patterns checked, mismatches 0; #patterns with U=1: 2; sum w = 4
+length 4: 24 patterns checked, mismatches 0; #patterns with U=1: 5; sum w = 10
+length 5: 120 patterns checked, mismatches 0; #patterns with U=1: 10; sum w = 20
+length 6: 720 patterns checked, mismatches 0; #patterns with U=1: 18; sum w = 36
+== 6. Monotone cluster numbers (binomial law for k <= a+1, Catalan corrections), a <= 8
+a=1: binomial law holds for k<= 2; deviations at k=a+2,a+3,a+4: [-4, 50, -468]  Cat(a+1)^2= 4  (a+1)Cat(a+2)^2= 50
+a=2: binomial law holds for k<= 3; deviations at k=a+2,a+3,a+4: [-25, 588, -9212]  Cat(a+1)^2= 25  (a+1)Cat(a+2)^2= 588
+a=3: binomial law holds for k<= 4; deviations at k=a+2,a+3,a+4: [-196, 7056, -158112]  Cat(a+1)^2= 196  (a+1)Cat(a+2)^2= 7056
+a=4: binomial law holds for k<= 5; deviations at k=a+2,a+3,a+4: [-1764, 87120, -2564595]  Cat(a+1)^2= 1764  (a+1)Cat(a+2)^2= 87120
+a=5: binomial law holds for k<= 6; deviations at k=a+2,a+3,a+4: [-17424, 1104246, -40489020]  Cat(a+1)^2= 17424  (a+1)Cat(a+2)^2= 1104246
+a=6: binomial law holds for k<= 7; deviations at k=a+2,a+3,a+4: [-184041, 14314300, -630401772]  Cat(a+1)^2= 184041  (a+1)Cat(a+2)^2= 14314300
+a=7: binomial law holds for k<= 8; deviations at k=a+2,a+3,a+4: [-2044900, 189112352, -9743193408]  Cat(a+1)^2= 2044900  (a+1)Cat(a+2)^2= 189112352
+a=8: binomial law holds for k<= 9; deviations at k=a+2,a+3,a+4: [-23639044, 2538950544, -150009661308]  Cat(a+1)^2= 23639044  (a+1)Cat(a+2)^2= 2538950544
+== 7. Known-theorem classes of S_4..S_8: expect 4 16 91 595 4755, and provenance trees
+S_4: 4 known-equivalence classes: PASS
+S_5: 16 known-equivalence classes: PASS
+S_6: 91 known-equivalence classes: PASS
+S_7: 595 known-equivalence classes: PASS
+S_8: 4755 known-equivalence classes: PASS
+S_4 with 1342~2413: 3 classes: PASS
+  52381674 <- 47618325 via SYM:r
+m = 8 classes: 4755 moves used: {'SYM': 34598, 'BWX': 873, 'SW': 94}
+== 8. Cluster program vs known sequences
+123: 7 complete cluster/avoidance rows: PASS
+12345678: 7 complete cluster/avoidance rows: PASS
+== 9. S_8 certificate assembly (uses the sweep outputs in ../data)
+n<=9: 1 groups
+n<=10: 8 groups
+n<=11: 256 groups
+n<=12: 4210 groups
+n<=13: 4751 groups
+n<=14: 4755 groups
+classes not yet separated: 0 []
+wrote /mnt/data/wilf_rev5_work/WILF_PAPER_v2_20260920/src/../data/S8_classes.csv sha256 381ab01680a2ee4256d09660fecf2cf348c8a3e07f749bdeebf079e9905118b8
+PASS: 40320 permutations partitioned into 4755 classes
+PASS: 24818 exact cluster/avoidance identities
+PASS: refinement 1, 8, 256, 4210, 4751, 4755; all cutoffs and class sizes checked
+== 10. Stage-1 certificate (reference/archive_stage1_S8) vs the present certificate: expect 4755 identical classes, 0 mismatches
+archived classes: 4755 present classes: 4755
+archived representatives that are present representatives: 4755
+classes with identical membership: 4755
+certificate entries compared: 20063 mismatches: 0
+per-pattern counts compared (all 40320 patterns, n=9..12): 161280 mismatches: 0
+== 11. Deletion-overlap formula (Theorem 7.2) vs cluster g_3: 830 patterns of length 4..7, expect 0 mismatches
+patterns compared: 830 mismatches: 0
+   (the 4,755 representatives of length 8: g++ -O2 -std=c++17 -o dbox deletion_boxes.cpp; see ../checks/deletion_boxes_vs_clusters.txt)
+== 12. Return catalogue (Theorem 6.7) vs pure-return indicator U for l <= 7; r_l; j on all patterns of length <= 5
+l=2: |P|=1 |U|=1 P==U: True
+l=3: |P|=2 |U|=2 P==U: True
+l=4: |P|=5 |U|=5 P==U: True
+l=5: |P|=10 |U|=10 P==U: True
+l=6: |P|=18 |U|=18 P==U: True
+l=7: |P|=28 |U|=28 P==U: True
+j by the catalogue formula vs cluster value: 144 patterns, 0 mismatches
+== 12b. Brute-force containment counter (third method) vs certificate at n = 12 for the eight hardest representatives
+   (n = 13, 14 take ~10 min per pattern at n = 14: run_bruteforce_hardest.sh; log in ../checks/bruteforce_hardest.txt)
+representatives: 8; n=[12]; rows: 8; mismatches: 0; fresh rows this run: 8; elapsed seconds: 2.616
+PASS: 9510 retained row-level recount values; not a fresh enumeration
+PASS: recorded source and certificate hashes match
+PASS: 16 inherited n=13,14 values; inspected/comparison-checked, not freshly recounted
+PASS: 872 retained component rows, k=3, 2<=a<=6; all scopes, defects and cell totals checked
+PASS: 152 retained component rows, k=4, 2<=a<=5; all scopes, defects and cell totals checked
+The a=1 case is a simplex and is treated directly in the manuscript.
+PASS rejected: wrong known value
+PASS rejected: missing known row
+PASS rejected: duplicate known row
+PASS rejected: empty known output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: missing recount row
+PASS rejected: duplicate recount row
+PASS rejected: malformed retained stdout
+PASS rejected: consistent complement but incorrect count
+PASS: ten invalid counter invocations rejected
+PASS: five valid boundary/known counter invocations
+PASS: 28 verification regression checks
+== 13. Layered formula, Appendix A: intersection table, prefix statistic, Lemma A.6 and the recurrence, layered patterns of length <= 4
+(1, 1) table ok f' ok J 311 311 311 rec formula
+(2,) table ok f' ok J 311 311 311 rec formula
+(1, 1, 1) table ok f' ok J 793 793 793 rec formula
+(1, 2) table ok f' ok J 794 794 794 rec formula
+(2, 1) table ok f' ok J 793 793 793 rec formula
+(3,) table ok f' ok J 793 793 793 rec formula
+(1, 1, 1, 1) table ok f' ok J 1695 None 1695 rec formula
+(1, 1, 2) table ok f' ok J 1696 None 1696 rec formula
+(1, 2, 1) table ok f' ok J 1695 None 1695 rec formula
+(1, 3) table ok f' ok J 1696 None 1696 rec formula
+(2, 1, 1) table ok f' ok J 1695 None 1695 rec formula
+(2, 2) table ok f' ok J 1696 None 1696 rec formula
+(3, 1) table ok f' ok J 1695 None 1695 rec formula
+(4,) table ok f' ok J 1695 None 1695 rec formula
+   (length <= 5 was run for ../checks/layered_identities.txt; about 20 min)
+done

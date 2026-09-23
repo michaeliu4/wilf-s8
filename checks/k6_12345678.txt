@@ -1,0 +1,9 @@
+merges generated: 2886207479  gen time 303.1s
+total time 322.2s
+r=8 c_r=1 clusters=1 Av_8=40319
+r=9 c_r=-16 clusters=9 Av_9=362815
+r=10 c_r=153 clusters=83 Av_10=3626197
+r=11 c_r=-1140 clusters=928 Av_11=39832877
+r=12 c_r=7315 clusters=12195 Av_12=476591309
+r=13 c_r=-42504 clusters=180761 Av_13=6162155981
+r=14 c_r=230230 clusters=2956414 Av_14=85494566892

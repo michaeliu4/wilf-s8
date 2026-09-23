@@ -1,0 +1,3 @@
+PASS: all 130 compiled reference types agree with source environments.
+Types: {'appendix': 1, 'corollary': 6, 'definition': 3, 'equation': 46, 'lemma': 16, 'proposition': 7, 'remark': 4, 'section': 11, 'subsection': 11, 'table': 2, 'theorem': 23}
+All internal reference keys and bibliography citation keys resolve.

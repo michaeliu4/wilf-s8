@@ -1,0 +1,71 @@
+python3 src/check_certificate.py
+PASS: 40320 permutations partitioned into 4755 classes
+PASS: 24818 exact cluster/avoidance identities
+PASS: refinement 1, 8, 256, 4210, 4751, 4755; all cutoffs and class sizes checked
+python3 src/check_recount_records.py
+PASS: 9510 retained row-level recount values; not a fresh enumeration
+PASS: recorded source and certificate hashes match
+PASS: 16 inherited n=13,14 values; inspected/comparison-checked, not freshly recounted
+python3 src/compare_archive_S8.py
+archived classes: 4755 present classes: 4755
+archived representatives that are present representatives: 4755
+classes with identical membership: 4755
+certificate entries compared: 20063 mismatches: 0
+per-pattern counts compared (all 40320 patterns, n=9..12): 161280 mismatches: 0
+python3 src/test_cluster_cli.py
+Cluster CLI: 26 invalid inputs rejected; 6 valid-input cases passed.
+python3 src/test_verification.py
+PASS rejected: wrong known value
+PASS rejected: missing known row
+PASS rejected: duplicate known row
+PASS rejected: empty known output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: malformed or wrong-scope counter output
+PASS rejected: missing recount row
+PASS rejected: duplicate recount row
+PASS rejected: malformed retained stdout
+PASS rejected: consistent complement but incorrect count
+PASS: ten invalid counter invocations rejected
+PASS: five valid boundary/known counter invocations
+PASS: 28 verification regression checks
+python3 src/check_revision7_math.py
+{
+  "polynomials": {
+    "cubic_identity": "exact symbolic equality",
+    "leading_coefficients_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "separated_modular_patterns": 93,
+    "odd_lengths": [
+      17,
+      201
+    ]
+  },
+  "catalogue_dictionary": {
+    "primitive_support_dictionaries": 8803,
+    "lengths": [
+      2,
+      25
+    ],
+    "Ray_West_example_8_4": "61823457 = Z(6,2;1,1)",
+    "return_figure": "passed"
+  },
+  "elimination": {
+    "seed": 20260921,
+    "finite_forest_instances": 400,
+    "initial_feasible_assignments": 12691,
+    "projection_preserving_steps": 1709
+  },
+  "scope": "Exact symbolic identities and bounded regression cases; not exhaustive proof verification."
+}
+python3 src/test_release_tools.py
+Release/package fixture checks: 16 passed; no remote actions.
+python3 src/test_reference_check.py
+PASS: 7 negative reference regressions rejected (5 wrong types, missing, duplicate).

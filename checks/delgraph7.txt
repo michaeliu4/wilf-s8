@@ -1,0 +1,1 @@
+A=7 patterns=5040  L2 failures=0  LE failures=0  sum_b0!=C2: 0  sum_b1!=2A(A+2): 0

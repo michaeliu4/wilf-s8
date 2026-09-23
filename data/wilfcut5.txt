@@ -1,0 +1,5 @@
+cutoff n<=6: 1 classes
+cutoff n<=7: 5 classes
+cutoff n<=8: 14 classes
+cutoff n<=9: 16 classes
+cutoff n<=10: 16 classes

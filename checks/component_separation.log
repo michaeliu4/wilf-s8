@@ -1,0 +1,10 @@
+a=1 patterns=1 hosts=6 deletion_pairs=18 containing_pairs=6 component_pairs_tested=0 max_beta0=1 failures=0
+a=2 patterns=2 hosts=24 deletion_pairs=144 containing_pairs=46 component_pairs_tested=2 max_beta0=2 failures=0
+a=3 patterns=6 hosts=120 deletion_pairs=1200 containing_pairs=468 component_pairs_tested=12 max_beta0=2 failures=0
+a=4 patterns=24 hosts=720 deletion_pairs=10800 containing_pairs=4978 component_pairs_tested=64 max_beta0=3 failures=0
+a=5 patterns=120 hosts=5040 deletion_pairs=105840 containing_pairs=55116 component_pairs_tested=332 max_beta0=3 failures=0
+a=6 patterns=720 hosts=40320 deletion_pairs=1128960 containing_pairs=643240 component_pairs_tested=1918 max_beta0=4 failures=0
+a=7 patterns=5040 hosts=362880 deletion_pairs=13063680 containing_pairs=7970800 component_pairs_tested=12760 max_beta0=4 failures=0
+real 1.16
+user 1.16
+sys 0.00

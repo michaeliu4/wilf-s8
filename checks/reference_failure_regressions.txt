@@ -1,0 +1,1 @@
+PASS: 7 negative reference regressions rejected (5 wrong types, missing, duplicate).
